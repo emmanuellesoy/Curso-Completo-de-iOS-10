@@ -1,7 +1,7 @@
-import Foundation
-//Se quita NS de algunas clases
-//Antes let date : NSDate = NSDate()
-let date : Date = Date()
-let dateFormater : DateFormatter
-let timer : Timer
+var name : String = "Emmanuelle Laguna Marín"
+name.uppercased()
+name.lowercased()
+name
 
+var pet : String
+pet = "Foo"
