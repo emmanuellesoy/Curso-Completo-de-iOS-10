@@ -1,5 +1,10 @@
-func addTwoNumbers(x: Int, y: Int) -> Int {
-    return x+y
+enum Direction {
+    case north
+    case northEast
+    case south
+    case east
+    case west
 }
 
-addTwoNumbers(x: 3, y: 2)
+Direction.west
+    
