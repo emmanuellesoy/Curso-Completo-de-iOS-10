@@ -1,3 +1,12 @@
-var age: Int = 31
-age += 1 // ++ hass been deprecated
-age -= 1
+for i in 0..<10 {
+    print("Hola: \(i)")
+}
+
+for i in 0...9 { // 0 <= 9 equivalent
+    print("Adios: \(i)")
+}
+
+for _ in 0..<10 { //If you don't use initialitation var
+    print("Hi")
+}
+
